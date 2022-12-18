@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Monospace;
+}
+.header h2{
+  font-family: cursive;
+}
+.header p {
+  width: 90%;
+  margin-left: 20px;
+}
+#date {
+  width: 8rem;
+  height: 2rem;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.title {
+  
+}
+.img {
+  width: 95%;
+  height: 100%;
+  border-radius: 20px;
+}
+.copyright {
+  font-size: 15px;
+  margin-top: -3px;
+  margin-left: 8px;
+}
+.explanation {
+  width: 90%;
+  margin-left: 16px;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 2;
+}
+a{
+  color: black;
+}
+.bottom {
+  margin-left: 5px;
+}
+.logo {
+  width: 12%;
+  margin-left: 10px;
+}
+.
