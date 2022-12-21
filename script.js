@@ -9,6 +9,7 @@ getDate.max = `${year}-${month}-${day}`;
 const url =
   "https://api.nasa.gov/planetary/apod?api_key=aR52Wv1BXooQKbj1e4war7SmShnIciBeU7IyMgbl";
 const getData = async (url) => {
+  showData.innerHTML = "<h1>Loading</h1>";
   const res = await fetch(url);
   const data = await res.json();
   //console.log(data);
