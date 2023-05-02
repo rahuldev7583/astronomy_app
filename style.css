@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-family: Monospace;
 }
-.header h2{
+.header h2 {
   font-family: cursive;
 }
 .header p {
@@ -17,9 +17,7 @@ body {
   font-size: 18px;
   border-radius: 10px;
 }
-.title {
-  
-}
+
 .img {
   width: 95%;
   height: 100%;
@@ -37,7 +35,7 @@ body {
   text-align: justify;
   line-height: 2;
 }
-a{
+a {
   color: black;
 }
 .bottom {
@@ -47,4 +45,27 @@ a{
   width: 12%;
   margin-left: 10px;
 }
-.
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+  .header h2 {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .title {
+    margin: 0.5rem;
+  }
+  .img {
+    width: 80vw;
+    height: 70vh;
+  }
+  .explanation {
+    margin-left: 4rem;
+    font-size: 1.4rem;
+  }
+  .logo {
+    width: 4%;
+  }
+}
